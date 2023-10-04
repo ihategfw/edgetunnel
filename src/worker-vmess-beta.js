@@ -11,9 +11,9 @@ import jsSHA from "jssha";
 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = '720bf125-9c89-4e5e-bc28-15dc910e1b66';
+let userID = '6b2e381c-8214-47c7-aa73-54c803ef1d22';
 
-let proxyIP = '';
+let proxyIP = '93.191.168.187';
 
 if (!isValidUUID(userID)) {
 	throw new Error('uuid is not valid');
